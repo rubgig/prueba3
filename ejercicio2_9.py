@@ -1,0 +1,8 @@
+print('Introduce cantidad a invertir:')
+cantidad=float(input())
+print('Cual es la cantidad de intereses?')
+interes=int(input())
+print('Durante cuantos años?')
+tiempo=int(input())
+cantidadFinal=float((cantidad*(interes/100))*tiempo)
+print('Al final tendras:',cantidadFinal)

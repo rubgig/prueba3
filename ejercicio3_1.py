@@ -1,0 +1,5 @@
+print('Introduce tu nombre:')
+nombre=input()
+print('Introduce un numero:')
+num=int(input())
+print((nombre + '\n') * num)

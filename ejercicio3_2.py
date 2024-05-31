@@ -1,0 +1,5 @@
+print('Introduce tu nombre completo:')
+nombre=input()
+print(nombre.lower())
+print(nombre.upper())
+print(nombre.title())

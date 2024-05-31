@@ -1,0 +1,6 @@
+print('Cuantas horas has trabajado?')
+horas=int(input())
+print('Cuanto se cobra la hora?')
+sueldoHora=float(input())
+sueldo=float(horas*sueldoHora)
+print('Te corresponden:',sueldo,'€')

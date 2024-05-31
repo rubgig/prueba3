@@ -1,0 +1,6 @@
+print('Introduce peso:')
+peso=float(input())
+print('Introduce altura:')
+altura=float(input())
+imc=float(peso/(altura**2))
+print('Tu IMC es:',imc)
